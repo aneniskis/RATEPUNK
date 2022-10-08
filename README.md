@@ -2,8 +2,6 @@
 
 _front-end tasks_
 
-Don't forget to press the button to return to the main page. :)
-
 ## Project features
 
 - React-router-dom
