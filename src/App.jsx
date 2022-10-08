@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Header />}>
+        <Route path="/RATEPUNK" element={<Header />}>
           <Route index element={<MainContent />} />
           <Route path="*" element={<NotFound />} />
         </Route>
