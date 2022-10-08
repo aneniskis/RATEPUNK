@@ -1,0 +1,107 @@
+.formContainer {
+  width: 544px;
+  height: 797px;
+  padding: 4rem;
+  background-color: var(--white-color);
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  font-family: "Noto Sans";
+  @media (max-width: 600px) {
+    width: 343px;
+    height: 539px;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+  }
+
+  .content {
+    h1 {
+      font-family: "Caveat Brush";
+      font-size: 3rem;
+      line-height: 4.5rem;
+      margin-bottom: 2rem;
+      @media (max-width: 600px) {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-bottom: 2rem;
+      }
+    }
+    p {
+      font-family: "Noto Sans";
+      font-size: 1.2rem;
+      line-height: 2rem;
+      margin-bottom: 2rem;
+      @media (max-width: 600px) {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-bottom: 2rem;
+      }
+    }
+    span {
+      color: var(--light-red);
+      font-size: 12px;
+      line-height: 24px;
+      gap: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 5px;
+    }
+  }
+}
+.formContainer {
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    img {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      z-index: 2;
+      display: flex;
+      transform: translate(110%, 115%);
+      @media (max-width: 600px) {
+        transform: translate(110%, 100%);
+      }
+    }
+    input {
+      position: relative;
+      height: 4rem;
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      font-size: 1.2rem;
+      font-family: "Noto Sans";
+      line-height: 1.2rem;
+      padding-left: 60px;
+      color: var(--input);
+      @media (max-width: 600px) {
+        height: 3.5rem;
+      }
+    }
+    input::placeholder {
+      font-size: 1.2rem;
+      font-family: "Noto Sans";
+      line-height: 1.2rem;
+      color: var(--input);
+      @media (max-width: 600px) {
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+.formContent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--input);
+}
