@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RATEPUNK/static/css/main.b376e726.css",
-    "main.js": "/RATEPUNK/static/js/main.6796b25a.js",
+    "main.js": "/RATEPUNK/static/js/main.df8bcc64.js",
     "static/media/Group 12.svg": "/RATEPUNK/static/media/Group 12.13931bb077187a88f599ced58eacc49d.svg",
     "static/media/Get voucher img.svg": "/RATEPUNK/static/media/Get voucher img.432e5e9af3f7fcaeb1255592c606efd8.svg",
     "static/media/Chrome Icon.svg": "/RATEPUNK/static/media/Chrome Icon.70fb8aec92750f071246d8e35caa4dd6.svg",
@@ -12,10 +12,10 @@
     "index.html": "/RATEPUNK/index.html",
     "static/media/Icon feather-mail.svg": "/RATEPUNK/static/media/Icon feather-mail.75de7883987b7ead4e8353bf7805e1a0.svg",
     "main.b376e726.css.map": "/RATEPUNK/static/css/main.b376e726.css.map",
-    "main.6796b25a.js.map": "/RATEPUNK/static/js/main.6796b25a.js.map"
+    "main.df8bcc64.js.map": "/RATEPUNK/static/js/main.df8bcc64.js.map"
   },
   "entrypoints": [
     "static/css/main.b376e726.css",
-    "static/js/main.6796b25a.js"
+    "static/js/main.df8bcc64.js"
   ]
 }
